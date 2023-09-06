@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-bg-color: #018491;
+  --head-bg-color: rgb(128,169,177);
+}
+
+.navbar .container-fluid .collapse ul .nav-item {
+  margin-right: 26px;
+}
+.navbar .container-fluid .collapse ul .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar .container-fluid .collapse .d-flex .btn-primary {
+  background-color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+  width: 170px;
+}
+.navbar .container-fluid .collapse .d-flex :hover {
+  border-radius: 15px;
+}
+
+.head {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--head-bg-color);
+}
+.head .row .kiri .content h2 {
+  font-weight: bold;
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.head .row .kiri .content p {
+  font-weight: regular;
+  font-size: 20px;
+  color: #fff;
+}
+.head .row .kiri .content .btn-primary {
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: white;
+  color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+}
+.head .row .kiri .content :hover {
+  border-radius: 15px;
+}
+.head .row .kanan .img-fluid {
+  width: 500px;
+  height: 500px;
+}
+
+.about-us {
+  padding-top: 86px;
+  padding-bottom: 100px;
+}
+.about-us .kanan h3 {
+  text-align: end;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.about-us .kanan p {
+  text-align: end;
+}/*# sourceMappingURL=main.css.map */
