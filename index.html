@@ -18,6 +18,8 @@
     <!-- Css Custome -->
     <link href="style/main.css" rel="stylesheet">
     <!-- End Css Custome -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
   </head>
   <body>
@@ -40,7 +42,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#about-us">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Partner</a>
@@ -74,14 +76,14 @@
     <!-- Header -->
     <header class="head px-4">
         <div class="row">
-            <div class="col-md-6 d-flex justify-content-center align-items-center kiri">
+            <div class="col-md-6 d-flex justify-content-center align-items-center kiri" data-aos="fade-up-right">
                 <div class="content">
                     <h2>Selamat Datang di<br>Insania Sinergia</h2>
                     <p>Penyedia  Jasa Konsultasi dan  rekomendasi terbaik <br> terkait rencana bisnis maupun permasalahan bisnis <br> yang tengah dihadapi.</p>
                     <a href="#" class="btn btn-primary">Segera Atur Jadwal Konsultasi Anda</a>
                 </div>
             </div>
-            <div class="col-md-6 d-flex justify-content-center align-items-center kanan">
+            <div class="col-md-6 d-flex justify-content-center align-items-center kanan" data-aos="fade-up-left">
                 <img src="img/meeting.svg" alt="Image Meeting" class="img-fluid">
             </div>
         </div>
@@ -89,13 +91,13 @@
     <!-- End Header -->
 
     <!-- About Us -->
-    <section class="about-us container">
+    <section id="about-us" class="about-us container">
         <div class="row">
-            <div class="col-md-6 d-flex justify-content-center align-items-center kiri">
+            <div class="col-md-6 d-flex justify-content-center align-items-center kiri" data-aos="zoom-in">
                 <img src="img/about-us.svg" alt="Image About Us" class="img-fluid">
             </div>
-            <div class="col-md-6 d-flex justify-content-end align-items-center kanan">
-                <div>
+            <div class="col-md-6 d-flex justify-content-end align-items-center kanan" data-aos="zoom-in">
+                <div class="ratakan">
                     <h3>Tentang Kami</h3>
                     <p class="text-right">Jasa kami mencakup bantuan <br> nasihat bisnis, bimbingan dan <br> operasional berbagai fungsi <br> manajemen bisnis, konsultasi <br> manajemen olah agronomist dan <br> agricultural economis pada <br> bidang pertanian.</p>
                     <a href="#" class="btn btn-primary">Tampilkan Lebih Banyak</a>
@@ -105,6 +107,55 @@
     </section>
     <!-- End About Us -->
 
+    <!-- Why Should We -->
+    <section class="why-should-we container">
+        <h3 class="text-center why">Mengapa Harus Kami?</h3>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card" style="width: 360px; height: auto;">
+                    <div class="card-body text-center">
+                        <img src="img/pandangan.svg" alt="Pandangan" class="img-fluid">
+                        <h5 class="card-title">Pandangan Objektif</h5>
+                        <p class="card-text">
+                            Konsultan bisnis dapat memberi pandangan pihak ketiga tentang bisnis yang dijalankan. Dengan melakukan evaluasi operasi yang jujur, akan diberikan pandangan objektif yang dapat membantu dengan perencanaan di masa depan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 360px; height: auto;">
+                    <div class="card-body text-center">
+                        <img src="img/branding.svg" alt="Pandangan" class="img-fluid">
+                        <h5 class="card-title">Branding Layanan</h5>
+                        <p class="card-text">
+                        Kami memberikan banyak informasi tentang bagaimana memasarkan produk dan bagaimana menggunakan branding untuk mendapatkan pemasaran produk. Branding layanan dan produk adalah bagian penting dalam mempromosikan bisnis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" style="width: 360px; height: auto;">
+                    <div class="card-body text-center">
+                        <img src="img/menghemat.svg" alt="Pandangan" class="img-fluid">
+                        <h5 class="card-title">Menghemat Uang dan Waktu</h5>
+                        <p class="card-text">
+                            Mengandalkan teknik trial and error untuk bergerak maju. Namun ini bisa menjadi cara belajar yang mahal, terutama jika telah melakukan kesalahan yang mengakibatkan kerugian dana besar. kami dapat membantu merencanakan, membuat keputusan, dan mengembangkan bisnis secara strategis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Why Should We -->
+
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
   </body>
 </html>

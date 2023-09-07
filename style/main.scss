@@ -85,15 +85,67 @@
     padding-top: 86px;
     padding-bottom: 100px;
     .kanan{
-        h3{
+        .ratakan{
             text-align: end;
-            font-weight: 600;
-            font-size: 35px;
-            margin-bottom: 10px;
-        }
-        p{
-            text-align: end;
+            h3{
+                font-weight: 600;
+                font-size: 35px;
+                margin-bottom: 10px;
+            }
+            .btn-primary{
+                background-color: var(--main-bg-color);
+                border-color: var(--main-bg-color);
+                font-size: 16px;
+                color: #fff;
+                font-weight: 500;
+                width: 240px;
+            }:hover{
+                border-radius: 15px;
+            }
+        } 
+        @media(max-width: 932px){
+            .ratakan{
+                text-align: center;
+            }
+        }   
+    }
+    @media(max-width: 932px){
+        .kanan{
+            margin-top: 50px;
+            display: flex;
+            justify-content: center !important;
+            align-items: center;
         }
     }
 }
 // End About Us
+
+//Why Should We
+.why-should-we{
+    margin-bottom: 170px;
+    .why{
+        margin-bottom: 74px;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .row{
+        .col-md-4{
+            .card{
+                padding:18px;
+                .card-body{
+                    .card-title{
+                        font-weight: bold;
+                        font-size: 20px;
+                        margin-top: 14px;
+                        margin-bottom: 18px;
+                    }
+                    .card-text{
+                        font-size: 18px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+}
+//End Why Should We
